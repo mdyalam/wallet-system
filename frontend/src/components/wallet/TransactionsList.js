@@ -89,7 +89,7 @@ const TransactionsList = () => {
       </div>
 
       {/* Content Section */}
-      <div className="p-6">
+      <div className="p-6 space-y-3 max-h-96 overflow-y-auto pr-2">
         {transactionLoading ? (
           <div className="flex flex-col items-center justify-center py-16">
             <div className="relative">
