@@ -50,14 +50,14 @@ const WalletDashboard = () => {
 
         {/* Content */}
         {activeTab === 'wallet' && (
-          <div>
+          <div className="space-y-6">
             <WalletBalanceCard />
             <TransactionsList />
           </div>
         )}
 
         {activeTab === 'referrals' && (
-          <div>
+          <div className="space-y-6">
             <ReferralCard />
             <ReferralsList />
           </div>
